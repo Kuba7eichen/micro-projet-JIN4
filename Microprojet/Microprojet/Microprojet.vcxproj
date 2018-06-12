@@ -159,6 +159,14 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\tmxlite\tmxlite\tmxlite.vcxproj">
+      <Project>{0bc0c535-febb-4a83-8197-af74fa26e100}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MyLib\MyLib.vcxproj">
+      <Project>{2fef8b09-601f-4413-a8e0-ff46c94a8378}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
